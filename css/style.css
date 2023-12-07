@@ -46,8 +46,12 @@ text-align: center;
 text-decoration: none;
 display: inline-block;
 font-size: 16px;
+float: none;
 }
-.button:hover {background-color: rgb(89, 89, 223)}
+.button:hover {
+    background-color: rgb(89, 89, 223);
+    
+}
 
 .button:active {
 background-color: rgb(68, 68, 116);
@@ -56,17 +60,19 @@ transform: translateY(4px);
 }
 #hasil{
 font-size: 20px;
-background-color: rgb(39, 39, 187);
+background-color: lightskyblue;
 height: 30px;
 text-align: center;
 margin-left: 500px;
 margin-right: 500px;
+
 }
 #hasil2{
     font-size: 20px;
-    background-color: rgb(39, 39, 187);
+    background-color: lightskyblue;
     height: 30px;
     text-align: center;
     margin-left: 500px;
     margin-right: 500px;
+
 }
